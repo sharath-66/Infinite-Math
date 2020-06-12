@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subtraction</title>
+    <link rel="stylesheet" href="../Subtraction.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">  -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        #v1,
+        #v2 {
+            text-align: center;
+            padding: 20px 30px;
+            width: 40px;
+            font-size: 20px;
+            box-shadow: 1px 1px 0px #999, 2px 2px 0px #999, 3px 3px 0px #999,
+                4px 4px 0px #999, 5px 5px 0px #999, 6px 6px 0px #999;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- section is the container which consists of all the things visible on screen -->
+    <section>
+        <h1>Math Subtraction Quiz Game :)</h1>
+        <!-- below div contains all the game stuff -->
+        <div class="centerDiv">
+
+            <div class="insertBox">
+                <div class="box1">
+                    <input type="text" id="v1">
+                </div>
+                <div class="box1">
+                    <p>-</p>
+                </div>
+                <div class="box1">
+                    <input type="text" id="v2">
+                </div>
+            </div>
+
+            <div class="middleBox">
+                <!-- for numeric input mode -->
+                <input type="number" pattern="[0-9]*" inputmode="numeric" id="answer">
+            </div>
+
+            <div class="sentBox">
+                <button onclick="checkAns()">Check Answer</button>
+            </div>
+            <!-- <div id="ifError" style="text-align: center;">
+               Hint: If Number1 is smaller than Number2 then just reverse the number, do Maths and add "-" sign preceding the number
+            </div> -->
+        </div>
+    </section>
+    <script src="Subtraction.js"></script>
+</body>
+
+</html>

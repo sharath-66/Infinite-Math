@@ -1,0 +1,9 @@
+phonegap latest CLI is 9.0.0 instead of 8.0.0 so change in config.xml in line no.46
+
+In Admob.js ---->>
+
+If we want banner Ads to show automatically then in line no.41 set autoShow to true
+
+if we want interstitial ads to show automatically then in line no.85 and 99 set autoShow to true
+
+if we want rewarded video ads to show automatically then in line no.91 and 103 set autoShow to true

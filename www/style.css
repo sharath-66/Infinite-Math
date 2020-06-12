@@ -1,0 +1,114 @@
+body {
+  /* text-align: center; */
+  overflow: hidden;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #82ccdd; */
+
+  background: rgb(15, 12, 57);
+  background: linear-gradient(
+    90deg,
+    rgba(15, 12, 57, 1) 0%,
+    rgba(17, 133, 88, 1) 42%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.button {
+  background-color: #4caf50;
+
+  
+  /* background-image: linear-gradient(to bottom, rgb(39, 37, 158), rgb(82, 197, 126)); */
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+
+  /* for rounded buttons */
+  border-radius: 8px;
+}
+
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.textField {
+  background-color: #3fa3bd;
+  
+  /* background-color: #214d69; */
+  padding: 20px;
+  margin: 15px;
+  color: aliceblue;
+  /* just uncomment this as a part of update to v2.1.0 */
+  /* border-radius: 8px; */
+}
+
+.choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#selectChoice {
+  background-color: #214d69;
+  color: #94c01a;
+  /* background: rgb(15, 12, 57); */
+  /* background: linear-gradient(90deg,
+          rgba(15, 12, 57, 1) 0%,
+          rgba(17, 133, 88, 1) 42%,
+          rgba(0, 212, 255, 1) 100%); */
+  margin: 10px 5px;
+  padding: 20px;
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

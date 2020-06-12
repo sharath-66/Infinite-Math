@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition</title>
+    <link rel="stylesheet" href="../Addition.css">
+    <style>
+        body {
+            overflow: hidden;
+        }
+
+        .button {
+            /* background-color: #4caf50; */
+
+
+            /* background-image: linear-gradient(to bottom, rgb(39, 37, 158), rgb(82, 197, 126)); */
+            /* Green */
+            /* border: none;
+            color: white; */
+            /* padding: 15px 32px; */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            /* font-size: 16px; */
+            margin: 4px 2px;
+            cursor: pointer;
+            -webkit-transition-duration: 0.4s;
+            /* Safari */
+            transition-duration: 0.4s;
+
+            /* for rounded buttons */
+            /* border-radius: 8px; */
+
+            padding: 10px 20px;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            color: white;
+            border: none;
+            background-color: #079992;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+    </style>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">  -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- section is the container which consists of all the things visible on screen -->
+    <section>
+        <h1>Math Addition Quiz Game :)</h1>
+        <!-- below div contains all the game stuff -->
+        <div class="centerDiv">
+
+            <div class="insertBox">
+                <div class="box1">
+                    <input type="text" id="v1">
+                </div>
+                <div class="box1">
+                    <p>+</p>
+                </div>
+                <div class="box1">
+                    <input type="text" id="v2">
+                </div>
+            </div>
+
+            <div class="middleBox">
+                <!-- for numeric input mode -->
+                <input type="number" pattern="[0-9]*" inputmode="numeric" id="answer">
+            </div>
+
+            <div class="sentBox">
+                <button onclick="checkAns()">Check It</button>
+                <!-- <a href="../choice.html" class="button">Return</a> -->
+            </div>
+        </div>
+    </section>
+    <script src="Addition.js"></script>
+</body>
+
+</html>

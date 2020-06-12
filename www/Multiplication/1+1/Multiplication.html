@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication</title>
+    <link rel="stylesheet" href="../Multiplication.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">  -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- section is the container which consists of all the things visible on screen -->
+    <section>
+        <h1>Math Multiplication Quiz Game :)</h1>
+        <!-- below div contains all the game stuff -->
+        <div class="centerDiv">
+
+            <div class="insertBox">
+                <div class="box1">
+                    <input type="text" id="v1">
+                </div>
+                <div class="box1">
+                    <p>X</p>
+                </div>
+                <div class="box1">
+                    <input type="text" id="v2">
+                </div>
+            </div>
+
+            <div class="middleBox">
+                <!-- for numeric input mode -->
+                <input type="number" pattern="[0-9]*" inputmode="numeric" id="answer">
+            </div>
+
+            <div class="sentBox">
+                <button onclick="checkAns()">Check Answer</button>
+            </div>
+        </div>
+    </section>
+    <script src="Multiplication.js"></script>
+</body>
+
+</html>
